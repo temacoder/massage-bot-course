@@ -1,0 +1,21 @@
+{
+  "name": "massage-bot-course",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "@peculiar/webcrypto": "^1.4.0",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "fetch": "^1.1.0",
+    "nodemon": "^2.0.16",
+    "rss-parser": "^3.12.0",
+    "telegraf": "^4.8.2",
+    "valid-url": "^1.0.9"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
